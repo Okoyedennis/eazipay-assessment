@@ -1,0 +1,33 @@
+.contain {
+  width: 70% !important;
+  margin: 0 auto !important;
+}
+
+p {
+  margin-bottom: 0rem !important;
+}
+
+section {
+  margin-top: 4rem;
+}
+
+@media screen and (max-width: 1024px) {
+  section {
+    margin-top: 3rem;
+  }
+
+  .contain {
+    width: 86% !important;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  section {
+    margin-top: 4rem;
+  }
+
+  .contain {
+    width: 90% !important;
+  }
+}
